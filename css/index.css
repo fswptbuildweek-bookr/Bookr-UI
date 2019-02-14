@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(90deg, #E57452 0%, #0741AD 100%);
+  color: #F4F5F8;
+}
+.back {
+  background: linear-gradient(90deg, #e9ddd9 0%, #e9a19d 100%);
+  color: #0741AD;
+  border-radius: 12px;
+}
+.hero {
+  background: linear-gradient(90deg, #E57452 0%, #0741AD 100%);
+}
+.hero h1,
+.hero p {
+  color: #F4F5F8;
+}
