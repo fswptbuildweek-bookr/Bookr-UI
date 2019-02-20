@@ -13,14 +13,21 @@ span {
 background-color: @first-brand;
 }
 
+.about-img {
+    width: 250;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid @third-brand;
+}
+
 .dropdown {
   z-index: 2;
   position: absolute;
   right: 25px;
   cursor: pointer;
   .menu-button{
-    padding: 15px;
-    border: 3px solid @fourth-brand;
+    padding: 20px;
+    // border: 3px solid @fourth-brand;
     color: @font-color;
     font-size: 20px;
     font-weight: bold;
@@ -35,7 +42,7 @@ background-color: @first-brand;
     display: flex;
     flex-direction: column;
     align-items: center;  
-    margin-top: 10px;
+    margin-top: 20px;
     border: 2px solid @font-color;
   }
   .dropdown-item {

@@ -38,11 +38,9 @@ p {
   color: #F4F5F8;
   text-align: center;
 }
-.img {
+.home-img {
   border-radius: 15px 50px 30px;
   border: 4px solid #070707;
-}
-.home-img {
   width: 300px;
   height: 250px;
 }
@@ -70,6 +68,12 @@ span {
 .btn-about:hover {
   background-color: #E57452;
 }
+.about-img {
+  width: 250;
+  height: 200px;
+  border-radius: 15px;
+  border: 2px solid #0741AD;
+}
 .dropdown {
   z-index: 2;
   position: absolute;
@@ -77,8 +81,7 @@ span {
   cursor: pointer;
 }
 .dropdown .menu-button {
-  padding: 15px;
-  border: 3px solid #070707;
+  padding: 20px;
   color: #F4F5F8;
   font-size: 20px;
   font-weight: bold;
@@ -93,7 +96,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
   border: 2px solid #F4F5F8;
 }
 .dropdown .dropdown-item {

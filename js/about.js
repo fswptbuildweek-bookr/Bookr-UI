@@ -2,13 +2,13 @@ class Dropdown {
     constructor(element){
         this.element = element;
         this.button = element.querySelector('div.menu-button');
-        this.content = element.querySelector('.dropdown-item');
+        this.content = element.querySelector('.dropdown-content');
         
         this.button.addEventListener('click', () => {
-            this.toggleContent();
+            this.toggleMenu();
         })
     }
-    toggleContent() {
+    toggleMenu() {
         this.content.classList.toggle('dropdown-hidden');
     }
 }
