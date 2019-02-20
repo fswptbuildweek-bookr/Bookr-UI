@@ -12,23 +12,30 @@
 <body>
 
     <header class ="hero">
-        <nav class="navbar" role="navigation" aria-label="main-navigation">
-          <div class="img-about">             
+        <nav class="navbar is-transparent" role="navigation" aria-label="main-navigation">
+          <div class="img-about navbar-brand">             
+            <a class="nav-item" href="index.html">
+                <img src="img/Bookr_logo.png" alt="Bookr logo" width="200" height="28">
+            </a>
 
-                <a class="nav-item" href="index.html">
-
-                    <img src="img/Bookr_logo.png" alt="Bookr logo" width="200" height="28">
-                </a>
+            <div class="navbar-burger burger" data-target='navMenu'>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="dropdown navbar-menu is-active" id="navMenu">
+            <div class="navbar-item has-dropdown navbar-end is-hoverable">
+                <a class="navbar-link" href="#">Menu</a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="index.html">Home</a>
+                    <a class="navbar-item" href="http://bookr-client.surge.sh/" target="_blank">App</a>
+                    <a class="navbar-item" href="https://lambdaschool.com/" target="_blank">Lambda</a>
+                </div>
+            </div>
           </div>
         </nav>
-        <div class="dropdown">
-            <div class="menu-button">Menu</div>
-            <div class="dropdown-content dropdown-hidden">
-                <a class="dropdown-item" href="index.html">Home</a>
-                <a class="dropdown-item" href="http://bookr-client.surge.sh/" target="_blank">App</a>
-                <a class="dropdown-item" href="https://lambdaschool.com/" target="_blank">Lambda</a>
-            </div>
-        </div>
+       
        <div class="hero-body">
             <div class="container level">
                 <div class="level-item">
