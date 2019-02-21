@@ -6,3 +6,9 @@ login.addEventListener('click', (event) => {
 } );
 
 
+const signUp = document.querySelector('.btns');
+signUp.setAttribute('id', 'signUp');
+
+signUp.addEventListener('click', (event) => {
+    alert('Sign-Up for Bookr');
+});

@@ -11,7 +11,7 @@ html {
   background: linear-gradient(90deg, #e9ddd9 0%, #F4F5F8 100%);
 }
 h1 {
-  font-size: 3.3rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #F4F5F8;
 }
@@ -55,6 +55,15 @@ p {
   background-color: #F4F5F8;
   color: #0741AD;
 }
+ul {
+  list-style-type: square;
+  padding-left: 2%;
+  line-height: 4rem;
+}
+ul li {
+  font-size: 1.8rem;
+  color: #070707;
+}
 .about-us {
   font-size: 2rem;
 }
@@ -74,43 +83,17 @@ span {
   border-radius: 15px;
   border: 2px solid #0741AD;
 }
-.dropdown {
-  z-index: 2;
-  position: absolute;
-  right: 25px;
-  cursor: pointer;
-}
-.dropdown .menu-button {
-  padding: 20px;
+.nav-header {
+  font-size: 2rem;
   color: #F4F5F8;
-  font-size: 20px;
-  font-weight: bold;
 }
-.dropdown .menu-button:hover {
-  background-color: #E57452;
-}
-.dropdown .dropdown-content {
-  width: 100%;
-  position: absolute;
+.has-dropdown {
   background-color: #0741AD;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  border: 2px solid #F4F5F8;
 }
-.dropdown .dropdown-item {
-  width: 100%;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 18px;
-  text-decoration: none;
+.navbar-item {
+  font-size: 1.5rem;
   color: #F4F5F8;
 }
-.dropdown .dropdown-item:hover {
-  color: #F4F5F8;
-  background-color: #E57452;
-}
-.dropdown .dropdown-hidden {
-  display: none;
+.navbar-dropdown {
+  background-color: #0741AD;
 }

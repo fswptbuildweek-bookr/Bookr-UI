@@ -12,23 +12,30 @@
 <body>
 
     <header class ="hero">
-        <nav class="navbar" role="navigation" aria-label="main-navigation">
-          <div class="img-about">             
+        <nav class="navbar is-transparent" role="navigation" aria-label="main-navigation">
+          <div class="img-about navbar-brand">             
+            <a class="nav-item" href="index.html">
+                <img src="img/Bookr_logo.png" alt="Bookr logo" width="200" height="28">
+            </a>
 
-                <a class="nav-item" href="index.html">
-
-                    <img src="img/Bookr_logo.png" alt="Bookr logo" width="200" height="28">
-                </a>
+            <div class="navbar-burger burger" data-target='navMenu'>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          </div>
+          <div class="navbar-menu navbar-end" id="navMenu">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link nav-header" href="#">Menu</a>
+                <div class="navbar-dropdown is-boxed">
+                    <a class="navbar-item" href="index.html">Home</a>
+                    <a class="navbar-item" href="http://bookr-client.surge.sh/" target="_blank">App</a>
+                    <a class="navbar-item" href="https://lambdaschool.com/" target="_blank">Lambda</a>
+                </div>
+            </div>
           </div>
         </nav>
-        <div class="dropdown">
-            <div class="menu-button">Menu</div>
-            <div class="dropdown-content dropdown-hidden">
-                <a class="dropdown-item" href="index.html">Home</a>
-                <a class="dropdown-item" href="http://bookr-client.surge.sh/" target="_blank">App</a>
-                <a class="dropdown-item" href="https://lambdaschool.com/" target="_blank">Lambda</a>
-            </div>
-        </div>
+       
        <div class="hero-body">
             <div class="container level">
                 <div class="level-item">
@@ -46,10 +53,7 @@
             <div class="divide column is-two-thirds">
                 <h2>Scrum Master</h2>
                 <h3>William Kwon</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non nisi egestas, quis
-                    rutrum
-                    libero
-                    pellentesque.</p>
+                <p>Helps the team communicate and stay on track. Assists wherever there is need for in project and as a team.</p>
                 <a class="button btn-about is-large" href="http://github.com/wtkwon">GitHub</a>
             </div>
             <div class="column">
@@ -60,10 +64,7 @@
             <div class="column is-two-thirds">
                 <h2>Front End Architect</h2>
                 <h3>David Chua</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non nisi egestas, quis
-                        rutrum
-                        libero
-                        pellentesque.</p>
+                <p>Created the React application with styling platform, CRUD operations and SPA using React-router.</p>
                 <a class="button btn-about is-large" href="http://github.com/david-chua">Github</a>
                 </div>
                 <div class="column">
@@ -75,10 +76,7 @@
             <div class="column is-two-thirds">
                 <h2>Back End Architect</h2>
                 <h3>Ryan Matthews</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non nisi egestas, quis
-                        rutrum
-                        libero
-                        pellentesque.</p>
+                <p>Created CRUD API with Node and Express to connect with React Application.</p>
                 <a class="button btn-about is-large" href="http://github.com/Ryntak94">Github</a>
             </div>
             <div class="column">
@@ -90,10 +88,7 @@
                 <div class="column is-two-thirds">
                     <h2>Web UI Developer</h2>
                     <h3>Jacquetta Bommuluri</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet ligula non nisi egestas, quis
-                            rutrum
-                            libero
-                            pellentesque.</p>
+                    <p>Created marketing website with HTML, CSS, LESS, Bulma and JavaScript.</p>
                     <a class="button btn-about is-large" href="http://github.com/jacquetta">Github</a>
                 </div>
                 <div class="column">
