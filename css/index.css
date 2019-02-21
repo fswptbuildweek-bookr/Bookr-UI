@@ -11,7 +11,7 @@ html {
   background: linear-gradient(90deg, #e9ddd9 0%, #F4F5F8 100%);
 }
 h1 {
-  font-size: 3.3rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #F4F5F8;
 }
@@ -55,6 +55,15 @@ p {
   background-color: #F4F5F8;
   color: #0741AD;
 }
+ul {
+  list-style-type: square;
+  padding-left: 2%;
+  line-height: 4rem;
+}
+ul li {
+  font-size: 1.8rem;
+  color: #070707;
+}
 .about-us {
   font-size: 2rem;
 }
@@ -73,4 +82,18 @@ span {
   height: 200px;
   border-radius: 15px;
   border: 2px solid #0741AD;
+}
+.nav-header {
+  font-size: 2rem;
+  color: #F4F5F8;
+}
+.has-dropdown {
+  background-color: #0741AD;
+}
+.navbar-item {
+  font-size: 1.5rem;
+  color: #F4F5F8;
+}
+.navbar-dropdown {
+  background-color: #0741AD;
 }
