@@ -31,6 +31,9 @@ p {
 .bottom {
   text-align: center;
 }
+.bottom p {
+  color: #F4F5F8;
+}
 .hero {
   background: linear-gradient(90deg, #E57452 0%, #0741AD 100%);
 }
