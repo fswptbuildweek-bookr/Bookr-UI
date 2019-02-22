@@ -20,7 +20,7 @@ Bookr is a project created for Lambda School Full Stack Web pilot's part-time bu
 
 ### Marketing Website
 
-Created with HTML, CSS/LESS/Bulma and JavaScript. Website includes a homepage with information about application and features. Also a about page that lists team members and some of their contributions to project.
+Created with HTML, CSS/LESS/Bulma and JavaScript. Design inspired by https://html5up.net/stellar. Website includes a homepage with information about application and features. Also a about page that lists team members and some of their contributions to project.
 
 Link to website and app: https://bookr-ui.netlify.com/
 
