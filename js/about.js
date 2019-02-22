@@ -1,4 +1,3 @@
-'use strict';
 document.addEventListener('DOMContentLoaded', function(){
     const $dropdowns = getAll('.dropdown:not(.is-hoverable)');
 
