@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(90deg, #E57452 0%, #0741AD 100%);
   color: #F4F5F8;
+  font-family: 'Roboto Slab', serif;
 }
 html {
   font-size: 62.5%;
