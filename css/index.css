@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(90deg, #E57452 0%, #0741AD 100%);
   color: #F4F5F8;
+  font-family: 'Roboto Slab', serif;
 }
 html {
   font-size: 62.5%;
@@ -31,6 +32,9 @@ p {
 .bottom {
   text-align: center;
 }
+.bottom p {
+  color: #F4F5F8;
+}
 .hero {
   background: linear-gradient(90deg, #E57452 0%, #0741AD 100%);
 }
@@ -43,6 +47,7 @@ p {
   border: 4px solid #070707;
   width: 300px;
   height: 250px;
+  box-shadow: 10px 10px 5px grey;
 }
 .button {
   margin-top: 4%;
@@ -64,8 +69,19 @@ ul li {
   font-size: 1.8rem;
   color: #070707;
 }
-.about-us {
+.nav-header {
   font-size: 2rem;
+  color: #F4F5F8;
+}
+.has-dropdown {
+  background-color: #0741AD;
+}
+.navbar-item {
+  font-size: 1.5rem;
+  color: #F4F5F8;
+}
+.navbar-dropdown {
+  background-color: #0741AD;
 }
 span {
   color: #F4F5F8;
@@ -81,19 +97,13 @@ span {
   width: 250;
   height: 200px;
   border-radius: 15px;
-  border: 2px solid #0741AD;
+  box-shadow: 10px 10px 5px grey;
 }
-.nav-header {
-  font-size: 2rem;
+.about-header {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #0741AD;
+  font-size: 4.5rem;
+}
+.about-us {
+  font-size: 2.5rem;
   color: #F4F5F8;
-}
-.has-dropdown {
-  background-color: #0741AD;
-}
-.navbar-item {
-  font-size: 1.5rem;
-  color: #F4F5F8;
-}
-.navbar-dropdown {
-  background-color: #0741AD;
 }
